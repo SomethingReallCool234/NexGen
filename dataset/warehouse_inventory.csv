@@ -1,0 +1,36 @@
+Warehouse_ID,Location,Product_Category,Current_Stock_Units,Reorder_Level,Storage_Cost_per_Unit,Last_Restocked_Date
+WH001_Mumbai,Mumbai,Electronics,3042,925,18.32,10/6/2025
+WH001_Mumbai,Mumbai,Fashion,1800,798,13.07,10/7/2025
+WH001_Mumbai,Mumbai,Food & Beverage,4690,823,10.29,10/4/2025
+WH001_Mumbai,Mumbai,Healthcare,3418,815,43.83,10/16/2025
+WH001_Mumbai,Mumbai,Industrial,745,819,28.17,9/29/2025
+WH001_Mumbai,Mumbai,Books,4953,488,20.54,10/10/2025
+WH001_Mumbai,Mumbai,Home Goods,598,833,20.94,9/23/2025
+WH002_Delhi,Delhi,Electronics,214,873,28.37,9/23/2025
+WH002_Delhi,Delhi,Fashion,2353,878,7.6,9/29/2025
+WH002_Delhi,Delhi,Food & Beverage,246,317,14.88,9/23/2025
+WH002_Delhi,Delhi,Healthcare,2510,708,23.66,10/20/2025
+WH002_Delhi,Delhi,Industrial,3105,680,29.34,10/11/2025
+WH002_Delhi,Delhi,Books,548,553,23.54,9/29/2025
+WH002_Delhi,Delhi,Home Goods,2020,292,28.96,10/8/2025
+WH003_Bangalore,Bangalore,Electronics,2707,632,27.31,9/22/2025
+WH003_Bangalore,Bangalore,Fashion,3072,494,11.43,9/25/2025
+WH003_Bangalore,Bangalore,Food & Beverage,4266,468,22.63,10/4/2025
+WH003_Bangalore,Bangalore,Healthcare,916,302,23.87,10/4/2025
+WH003_Bangalore,Bangalore,Industrial,3745,728,43.58,9/24/2025
+WH003_Bangalore,Bangalore,Books,1888,586,30.23,9/30/2025
+WH003_Bangalore,Bangalore,Home Goods,2563,993,16.4,9/26/2025
+WH004_Chennai,Chennai,Electronics,3993,867,36.38,9/27/2025
+WH004_Chennai,Chennai,Fashion,4004,292,41.96,10/5/2025
+WH004_Chennai,Chennai,Food & Beverage,2572,698,10.73,9/29/2025
+WH004_Chennai,Chennai,Healthcare,3916,398,25.31,10/2/2025
+WH004_Chennai,Chennai,Industrial,758,628,26.8,10/10/2025
+WH004_Chennai,Chennai,Books,3864,741,34.15,10/3/2025
+WH004_Chennai,Chennai,Home Goods,2582,583,14.16,10/13/2025
+WH005_Kolkata,Kolkata,Electronics,2681,717,22.52,9/26/2025
+WH005_Kolkata,Kolkata,Fashion,2439,534,8,9/26/2025
+WH005_Kolkata,Kolkata,Food & Beverage,3220,884,25.27,10/8/2025
+WH005_Kolkata,Kolkata,Healthcare,2704,534,15.42,9/22/2025
+WH005_Kolkata,Kolkata,Industrial,734,945,19.45,10/2/2025
+WH005_Kolkata,Kolkata,Books,102,893,37.82,10/13/2025
+WH005_Kolkata,Kolkata,Home Goods,2721,843,25.89,10/1/2025
