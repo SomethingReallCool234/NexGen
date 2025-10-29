@@ -1,45 +1,49 @@
-NexGen Predictive Delivery Optimizer
-Overview
+# NexGen Predictive Delivery Optimizer
 
-This project was developed as part of the NexGen Logistics Innovation Challenge.
-The main objective was to analyze delivery performance issues and build a tool that can predict delivery delays before they happen and support better operational decisions.
+## 1. Project Overview
+This project was developed as part of the NexGen Logistics Innovation Challenge.  
+The goal was to analyze operational data to understand the causes of delivery delays and develop a predictive tool to identify potential delays before they occur.
 
-Problem Statement
+---
 
-NexGen Logistics manages hundreds of monthly orders across multiple warehouses and vehicles.
-The company faces challenges with delivery delays, inconsistent customer ratings, and increasing operational costs.
-The goal was to use available data to identify what causes these delays and explore how data-driven insights could improve performance.
+## 2. Problem Statement
+NexGen Logistics manages 200+ monthly orders, 5 warehouses, and a fleet of 50 vehicles across India and internationally.  
+They face ongoing challenges such as:
+- Frequent delivery delays and quality issues  
+- Rising operational costs  
+- Limited data-driven planning and forecasting capabilities  
 
-Approach
+The objective was to design a system that combines data visualization and machine learning to support better logistics decision-making.
 
-I started by exploring all the provided datasets, which included delivery performance, order details, routes, fleet information, cost breakdowns, warehouse inventory, and customer feedback.
-After cleaning and merging the data, I noticed that delays were influenced by multiple factors such as the carrier, route, weather impact, and delivery promises.
+---
 
-The next step was to design a dashboard using Streamlit and Plotly for interactive visualization of delivery metrics and performance patterns.
-After that, a predictive model was introduced to estimate the likelihood of a delay based on key operational inputs like carrier performance, promised delivery days, and weather impact.
+## 3. Approach
+1. **Data Exploration** – Analyzed multiple datasets including delivery performance, orders, routes, costs, and customer feedback.  
+2. **Data Preparation** – Cleaned and merged data for consistency across order IDs and carrier information.  
+3. **Dashboard Design** – Built an interactive **Streamlit + Plotly** dashboard for visual analysis and operational insights.  
+4. **Predictive Modeling** – Developed a machine learning model to predict delivery delays using simplified and interpretable features such as:
+   - Carrier  
+   - Promised Delivery Days  
+   - Route  
+   - Weather Impact  
 
-Machine Learning Model
+---
 
-The model was trained on historical delivery data to classify whether an order is likely to be delayed.
-Since the dataset was small and based on past outcomes, the model primarily learns from historical patterns.
-This limits its logical generalization, but with more data and fine-tuning, accuracy and reliability can significantly improve.
+## 4. Machine Learning Model
+A classification model was trained using historical delivery data to estimate the likelihood of a delay.  
+The model provides an early risk signal before dispatch, enabling proactive actions.
 
-Results
+Due to limited dataset size, the model accuracy is moderate. The next steps include:
+- Collecting more historical data for training  
+- Incorporating additional operational variables  
+- Improving interpretability and explainability of predictions  
+- Integrating mathematical and historical optimization for real-time decision-making  
 
-The final tool integrates:
+---
 
-A dashboard that visualizes delivery performance, customer feedback, and operational metrics.
+## 5. Tools and Technologies
+- Python (pandas, numpy, scikit-learn, xgboost)  
+- Streamlit for dashboard development  
+- Plotly for data visualization  
+- Joblib for model persistence  
 
-A predictive component that estimates potential delivery delays.
-
-Although not perfect due to limited data, it provides a strong foundation for expanding predictive analytics in logistics planning.
-
-Future Improvements
-
-Collect more historical and real-time delivery data to improve model accuracy.
-
-Introduce mathematical optimization for better route and scheduling suggestions.
-
-Integrate live data (e.g., weather, traffic, carrier status) to make predictions more dynamic.
-
-Use feedback loops to continuously improve the model’s performance.
